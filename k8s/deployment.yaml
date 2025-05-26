@@ -3,17 +3,17 @@ kind: Deployment
 metadata:
   name: hello-fastapi
 spec:
-    replicas: 3
-    selector:
-        matchLabels:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: hello-fastapi
+  template:
+    metadata:
+      labels:
         app: hello-fastapi
-    template:
-        metadata:
-        labels:
-            app: hello-fastapi
-        spec:
-        containers:
+    spec:
+      containers:
         - name: hello-fastapi
-            image: gbrlls/fastapi-k8s
-            ports:
+          image: gbrlls/fastapi-k8s
+          ports:
             - containerPort: 8000
