@@ -1,12 +1,12 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-- deployment.yaml
-- service.yaml
+  - deployment.yaml
+  - service.yaml
 images:
-- name: app
-  newName: gbrlls/fastapi-k8s
-  newTag: latest
-- name: hello-fastapi
-  newName: gbrlls/fastapi-k8s
-  newTag: 7d80f380510da3720369b62c4596c29b9070240f
+  - name: app
+    newName: gbrlls/fastapi-k8s
+    newTag: latest
+  - name: hello-fastapi
+    newName: gbrlls/fastapi-k8s
+    newTag: 7d80f380510da3720369b62c4596c29b9070240f
