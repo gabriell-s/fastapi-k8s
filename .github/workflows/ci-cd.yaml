@@ -28,7 +28,8 @@ jobs:
         with:
           context: .
           push: true
-          tags: gbrlls/fastapi-k8s:latest
+          tags: |
+            gbrlls/fastapi-k8s:latest 
             gbrlls/fastapi-k8s:${{ github.sha }}
 
       - name: Setup Kustomize
