@@ -1,10 +1,11 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: app-service
+  name: hello-fastapi-service
 spec:
   selector:
-    app: app
+    app: hello-fastapi
   ports:
-    - port: 80
-      targetPort: 9000
+    - protocol: TCP
+      port: 80
+      targetPort: 8000
