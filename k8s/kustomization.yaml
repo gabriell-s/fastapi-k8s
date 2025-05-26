@@ -5,5 +5,5 @@ resources:
   - service.yaml
 images:
   - name: app
-    newName: gabriellls/ci-sum-2025
+    newName: gbrlls/fastapi-k8s
     newTag: latest
