@@ -9,4 +9,4 @@ images:
   newTag: latest
 - name: hello-fastapi
   newName: gbrlls/fastapi-k8s
-  newTag: 35d022dc5e8b0f81c73bb8e15b9f127592fe5a2a
+  newTag: 0ca5d0ffcfd9bd885e0d411e01b24968398128fe
