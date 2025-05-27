@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: hello-fastapi
-          image: gbrlls/fastapi-k8s
+          image: hello-fastapi
           ports:
             - containerPort: 8000
