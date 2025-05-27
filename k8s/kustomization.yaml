@@ -6,4 +6,4 @@ resources:
 images:
 - name: hello-fastapi
   newName: gbrlls/fastapi-k8s
-  newTag: 86f1e258e0f198fe44db7efdd9a2a5620afb230a
+  newTag: d61f04e81b3dca0a7ec63bb5ba03f82ade2e0a33
