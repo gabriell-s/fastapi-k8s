@@ -4,9 +4,6 @@ resources:
 - deployment.yaml
 - service.yaml
 images:
-- name: app
-  newName: gbrlls/fastapi-k8s
-  newTag: latest
 - name: hello-fastapi
   newName: gbrlls/fastapi-k8s
   newTag: 3b3dad17fd29dca042ea3be0dac6ff1b710b2542
